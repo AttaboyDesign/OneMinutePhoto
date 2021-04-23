@@ -24,7 +24,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Bree", serif;
+  text-transform: capitalize;
 }
 
 /*--------------------------------------------------------------
@@ -76,11 +77,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 #header .logo a {
-  color: #fff;
+  color: #e9607a;
 }
 
 #header .logo img {
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Poppins", sans-serif;
+  font-family: "Bree", serif;
   color: #fff;
   font-size: 15px;
   padding: 0 4px;
@@ -335,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/dianahero.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -378,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
 }
 
@@ -462,7 +463,7 @@ section {
   color: #e43c5c;
   display: inline-block;
   text-transform: uppercase;
-  border-radius: 50px;
+  /*border-radius: 50px;*/
 }
 
 .section-title h3 {
@@ -489,6 +490,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: #e2e0e0;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -658,7 +663,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/dianabig.jpg") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -702,6 +707,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -735,6 +741,7 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  margin-top: 30px;
   overflow: hidden;
 }
 
